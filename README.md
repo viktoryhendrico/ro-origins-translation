@@ -10,12 +10,17 @@ Examples:
 3. This line `"<color=#fff94b>Lv.{0}</color> {1} 오픈"` to be translated to `"<color=#fff94b>Lv.{0}</color> {1} Open"`
 4. This line `"<color=$$Blue$$>[던전]</color>": "",` to be translated to `"<color=$$Blue$$>[Dungeon]</color>"`
 
+## Files:
+
+* `ro-origin-en.json` - All translated texts will be put here. **This will be the file to be modified**. 
+* `data.json` - default KR translation file.
+* `merged.json` - An auto-generated file. Combination of `data.json` and `ro-origin-en.kson` file (Mix or KR and EN translated texts)
 
 ## How to contribute:
 
 1. Fork the project.
 2. Create a topic branch from `master`.
-3. Make some `commits` to improve the project.
+3. Make some changes on the `ro-origin-en.json` file and `commit` to improve the project.
 4. Push this branch to your GitHub project.
 5. Open a `Pull Request` on GitHub.
 6. Discuss, and optionally continue committing.
